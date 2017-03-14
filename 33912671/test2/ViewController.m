@@ -41,7 +41,7 @@
     
     UILabel *vc1label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     [self.vc1.view addSubview:vc1label];
-    vc1label.text = @"left";
+    vc1label.text = @"left-develop";
     vc1label.center = self.vc1.view.center;
     
     UIViewController *vc2 = [[UIViewController alloc] init];
