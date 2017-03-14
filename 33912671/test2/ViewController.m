@@ -41,7 +41,7 @@
     
     UILabel *vc1label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     [self.vc1.view addSubview:vc1label];
-    vc1label.text = @"left-developChujdupa";
+    vc1label.text = @"leftfsf-developChujdupa";
     vc1label.center = self.vc1.view.center;
     
     UIViewController *vc2 = [[UIViewController alloc] init];
@@ -51,7 +51,7 @@
     
     UILabel *vc2label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     [self.vc2.view addSubview:vc2label];
-    vc2label.text = @"rightkamienikupa";
+    vc2label.text = @"rightsfsfkamienikupa";
     vc2label.center = self.vc2.view.center;
     
     [pageViewController setViewControllers:@[vc1] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
