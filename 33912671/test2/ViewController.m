@@ -41,7 +41,11 @@
     
     UILabel *vc1label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     [self.vc1.view addSubview:vc1label];
+<<<<<<< HEAD
     vc1label.text = @"leftfsf-FRESH";
+=======
+    vc1label.text = @"left-branch2";
+>>>>>>> next 2
     vc1label.center = self.vc1.view.center;
     
     UIViewController *vc2 = [[UIViewController alloc] init];
@@ -51,7 +55,11 @@
     
     UILabel *vc2label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     [self.vc2.view addSubview:vc2label];
+<<<<<<< HEAD
     vc2label.text = @"FRESH";
+=======
+    vc2label.text = @"right-branch2";
+>>>>>>> next 2
     vc2label.center = self.vc2.view.center;
     
     [pageViewController setViewControllers:@[vc1] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
