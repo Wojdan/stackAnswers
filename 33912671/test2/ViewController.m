@@ -51,11 +51,8 @@
     
     UILabel *vc2label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     [self.vc2.view addSubview:vc2label];
-<<<<<<< HEAD
-    vc2label.text = @"FRESH";
-=======
-    vc2label.text = @"branch22222";
->>>>>>> asfafasf
+    vc2label.text = @"FRESHsaf";
+
     vc2label.center = self.vc2.view.center;
     
     [pageViewController setViewControllers:@[vc1] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
